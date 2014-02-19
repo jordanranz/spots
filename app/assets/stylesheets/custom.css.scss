@@ -103,7 +103,8 @@ footer {
   }
 }
 
-/* gmaps bootstrap override */
+/* Google Maps */
+
 #map {
   width: 100%;
   height: 400px;
@@ -112,6 +113,7 @@ footer {
   width:100%;
 }
 
+/* gmaps bootstrap override */
 #map img {
   max-width: none;
 }
