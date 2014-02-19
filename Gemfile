@@ -4,7 +4,12 @@ gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.3.2.0'
 
 group :development do
+  gem 'rspec-rails', '2.13.1'
   gem 'sqlite3', '1.3.8'
+end
+
+group :test do
+  gem 'capybara', '2.1.0'
 end
 
 gem 'sass-rails', '4.0.1'
@@ -19,7 +24,7 @@ group :doc do
 end
 
 group :production do
-  #gem 'pg', '0.15.1'
+  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
 
